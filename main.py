@@ -160,7 +160,6 @@ while action != 0:
             for j in range(0, m):
                 print(int(c[i][j]), end=" ")
             print()
-        action = int(input("Выберите команду - "))
 
     elif action == 5:
         print("Выбрана операция транспонирования матрицы")
@@ -173,7 +172,7 @@ while action != 0:
 
     elif action == 7:
         print("Выбрана операция поиска обратной матрицы")
-        print("Ранг матрицы - ", np.linalg.inv(a))
+        print("Обратная матрицы - \n", np.linalg.inv(a))
 
     elif action == 8:
         print("Выбрана операция поиска ранга матрицы")
